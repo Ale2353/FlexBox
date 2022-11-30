@@ -1,0 +1,60 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body {
+        margin: 10px;
+        background-color: rgb(230, 34, 34);
+    }
+
+    .container {
+background-color: aliceblue;
+width: 100%;
+display: flex; /* fundamental para usar no flexbox*/
+justify-content: center; /*alinhar os item no centro*/
+flex-wrap: wrap; /*quebra de linha*/
+ }
+
+ .item {
+    background-color: rgb(241, 191, 9);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: black 1px dotted;
+
+ }
+
+ p {
+    font-size: 2.5em;
+    text-align: center;
+ }
+
+ .item1 {
+    height: 150px;
+    width: 100%;
+ }
+
+ .item2 {
+    height: 100px;
+    width: 100%;
+ }
+
+ .item3 {
+    height: 200px;
+    width: 50%;
+ }
+
+ .item4 {
+    height: 200px;
+    width: 50%;
+ }
+
+  .item5 {
+    height: 200px;
+    width: 80%;
+  } 
+
+  .item6 {
+    height: 50px;
+    width: 100%;
+  }

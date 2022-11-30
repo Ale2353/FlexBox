@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* alinhar e  nao alinhar as caixas*/
+
+}
+
+.container div {
+   border:solid 2px  sandybrown;
+   padding: 15px;
+}
+
+.item-box-1 {
+    flex: 12;
+    order: 2;
+    background-color: blue;
+}
+
+.item-box-2 {
+    flex: 10;
+    order: 2;
+    background-color: blueviolet;
+}
+
+.item-box-3 {
+    flex: 10;
+    order: 3;
+    background-color: darkturquoise;
+}
